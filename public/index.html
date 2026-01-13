@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CineWave — Premium Movie Info</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a href="#/" class="brand">Movies Info</a>
+      <nav class="nav">
+        <a href="#/" class="nav-link">Home</a>
+        <a href="#/movies" class="nav-link">Movies</a>
+        <a href="#/tv" class="nav-link">TV Series</a>
+      </nav>
+      <div class="search">
+        <input id="searchInput" placeholder="Search movies (Enter)" />
+      </div>
+    </div>
+  </header>
+
+  <main class="container" id="app">
+    <div id="loading" class="loading">Loading...</div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">Built with TMDB API</div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
